@@ -22,7 +22,7 @@ export const TASKS: Task [] = [
     {
         id:4,
         text:'Fetch Dog Food',
-        day: 'May 8th at 1:#0pm',
+        day: 'May 8th at 1:10pm',
         reminder:true,
     }
             

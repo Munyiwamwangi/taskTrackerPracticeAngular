@@ -10,6 +10,7 @@ export class ButtonComponent implements OnInit {
   text!: string;
   @Input()
   color!: string;
+
   @Output() btnClick = new EventEmitter();
 
 
@@ -19,6 +20,6 @@ export class ButtonComponent implements OnInit {
 
 
   onClick() {
-    this.btnClick.emit()
+    this.btnClick.emit();
   }
 }
